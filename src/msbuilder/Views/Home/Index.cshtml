@@ -96,3 +96,12 @@
         </ul>
     </div>
 </div>
+
+<div class="row">
+    <h1>msbuilder</h1>
+    @using (Html.BeginForm("Build", "Home"))
+    {
+        <input type="text" name="csproj"/>
+        <input type="submit" value="Build"/>
+    }
+</div>
